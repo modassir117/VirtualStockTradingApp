@@ -13,6 +13,29 @@ export default function Home() {
           <Link to="/register" className="home-button primary">Get Started</Link>
           <Link to="/login" className="home-button">Login</Link>
         </div>
+        <div className="home-features" aria-label="TradeSim Pro features">
+          <div className="home-feature">
+            <span className="home-feature-icon" aria-hidden="true">$</span>
+            <div>
+              <h2>Virtual Portfolio</h2>
+              <p>Start with 10 lakh in virtual funds.</p>
+            </div>
+          </div>
+          <div className="home-feature">
+            <span className="home-feature-icon" aria-hidden="true">↗</span>
+            <div>
+              <h2>Live Market</h2>
+              <p>Explore stocks and follow the market.</p>
+            </div>
+          </div>
+          <div className="home-feature">
+            <span className="home-feature-icon" aria-hidden="true">◫</span>
+            <div>
+              <h2>Track Performance</h2>
+              <p>Review trades and improve your strategy.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );

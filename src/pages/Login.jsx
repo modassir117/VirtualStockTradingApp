@@ -26,33 +26,6 @@ export default function Login() {
 
   return (
     <div className="auth auth-login-page">
-      <section className="auth-showcase">
-        <Link to="/" className="auth-brand">
-          <span className="auth-brand-mark">T</span>
-          <span>TradeSim Pro</span>
-        </Link>
-        <p className="auth-kicker">VIRTUAL MARKET. REAL LEARNING.</p>
-        <h1>Build your investing confidence.</h1>
-        <p className="auth-showcase-copy">
-          Explore the market, create a portfolio, and practice trading with
-          virtual funds—without risking real money.
-        </p>
-        <div className="auth-benefits">
-          <div>
-            <strong>₹10 lakh</strong>
-            <span>virtual starting balance</span>
-          </div>
-          <div>
-            <strong>Learn by doing</strong>
-            <span>track your portfolio and trades</span>
-          </div>
-          <div>
-            <strong>Risk-free</strong>
-            <span>prices and trades are simulated</span>
-          </div>
-        </div>
-      </section>
-
       <form className="card auth-form login-form" onSubmit={handleSubmit}>
         <h2>Welcome back</h2>
         <p className="login-description">Sign in to continue to your portfolio.</p>
